@@ -3,3 +3,4 @@ ENV Author="Arun"\
     Course="Devops"\
     Duration="120HRS"\
     Mode="Online"
+CMD ["nginx", "-g", "daemon off;"]

@@ -1,7 +1,6 @@
 ARG version
 FROM almalinux:${version:-9}
-ENV project="expense"\
-    environment="dev"
 ARG username=arun
+ENV USERNAME=${username}
 RUN echo "HELLO ${username}"
 CMD ["sleep", "200"]

@@ -4,4 +4,4 @@ RUN useradd arun
 USER arun
 CMD ["sleep", "100"]
 RUN echo "HELLO WORLD" > file.txt
-RUN chmod +r file.txt
+RUN chmod +w file.txt

@@ -1,4 +1,5 @@
-FROM almalinux:latest
+ARG version
+FROM almalinux:${version:-9}
 ENV project="expense"\
     environment="dev"
 ARG username=arun

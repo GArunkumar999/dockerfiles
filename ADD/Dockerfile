@@ -5,3 +5,4 @@ ADD https://raw.githubusercontent.com/GArunkumar999/dockerfiles/refs/heads/main/
 ADD sample-1.tar /tmp
 RUN chmod +r /usr/share/nginx/html/index.html
 CMD ["nginx", "-g", "daemon off;"]
+
